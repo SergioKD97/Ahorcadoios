@@ -18,9 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ahorcado_0.png" translatesAutoresizingMaskIntoConstraints="NO" id="p2T-zN-TgQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ahorcado_1.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p2T-zN-TgQ">
                                 <frame key="frameInset" minX="76" minY="144" width="223" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97022378444671631" green="0.50751440006086845" blue="0.0012130718086253035" alpha="0.032273706896551721" colorSpace="calibratedRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" _  _  _  _  _  _" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOG-Pz-J9y">
                                 <frame key="frameInset" minX="87" minY="45" width="200" height="57"/>
@@ -29,15 +30,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9o-VN-ZIN">
-                                <frame key="frameInset" minX="15" minY="392" width="44" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.51549426945694277" green="0.95077306937172779" blue="0.6396339074653089" alpha="0.39245345744680848" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="A">
-                                    <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdH-Cj-i28">
                                 <frame key="frameInset" minX="165" minY="392" width="44" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -46,6 +38,9 @@
                                 <state key="normal" title="D">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="whM-ld-po1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZD-Qp-zm7">
                                 <frame key="frameInset" minX="115" minY="392" width="44" height="50"/>
@@ -55,6 +50,9 @@
                                 <state key="normal" title="C">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZd-aC-t8l"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqO-6z-OFY">
                                 <frame key="frameInset" minX="65" minY="392" width="44" height="50"/>
@@ -64,6 +62,9 @@
                                 <state key="normal" title="B">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nK6-Ce-wtv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JK3-TE-Biu">
                                 <frame key="frameInset" minX="215" minY="392" width="44" height="50"/>
@@ -73,6 +74,9 @@
                                 <state key="normal" title="E">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="viW-BH-yw5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-MV-lO1">
                                 <frame key="frameInset" minX="265" minY="392" width="44" height="50"/>
@@ -82,6 +86,9 @@
                                 <state key="normal" title="F">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EK0-ow-BFO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvS-AJ-fBn">
                                 <frame key="frameInset" minX="315" minY="392" width="44" height="50"/>
@@ -91,6 +98,9 @@
                                 <state key="normal" title="G">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jVl-X3-evI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDm-df-aYd">
                                 <frame key="frameInset" minX="15" minY="450" width="44" height="50"/>
@@ -100,6 +110,9 @@
                                 <state key="normal" title="H">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="liO-ik-hkn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zuS-Y2-e6C">
                                 <frame key="frameInset" minX="165" minY="450" width="44" height="50"/>
@@ -109,6 +122,9 @@
                                 <state key="normal" title="K">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3mT-ft-NAf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8PK-P5-T5v">
                                 <frame key="frameInset" minX="115" minY="450" width="44" height="50"/>
@@ -118,6 +134,9 @@
                                 <state key="normal" title="J">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gkt-I8-qUU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bs-xH-RQy">
                                 <frame key="frameInset" minX="65" minY="450" width="44" height="50"/>
@@ -127,6 +146,9 @@
                                 <state key="normal" title="I">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OED-G6-qjD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQ8-Km-yKN">
                                 <frame key="frameInset" minX="215" minY="450" width="44" height="50"/>
@@ -136,6 +158,9 @@
                                 <state key="normal" title="L">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Sm-A8-7Ak"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iet-IK-3Nj">
                                 <frame key="frameInset" minX="265" minY="450" width="44" height="50"/>
@@ -145,6 +170,9 @@
                                 <state key="normal" title="M">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGb-cj-o03"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wy-BI-67U">
                                 <frame key="frameInset" minX="315" minY="450" width="44" height="50"/>
@@ -154,6 +182,9 @@
                                 <state key="normal" title="N">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qvj-2k-uzS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1F-h1-4Ku">
                                 <frame key="frameInset" minX="15" minY="508" width="44" height="50"/>
@@ -163,6 +194,9 @@
                                 <state key="normal" title="Ñ">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i6o-L6-va5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOs-JU-Yq4">
                                 <frame key="frameInset" minX="165" minY="508" width="44" height="50"/>
@@ -172,6 +206,9 @@
                                 <state key="normal" title="Q">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j0A-Nf-9Q6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajw-Zb-wjW">
                                 <frame key="frameInset" minX="115" minY="508" width="44" height="50"/>
@@ -181,6 +218,9 @@
                                 <state key="normal" title="P">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zrd-uS-M5k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgh-eJ-oR1">
                                 <frame key="frameInset" minX="65" minY="508" width="44" height="50"/>
@@ -190,6 +230,9 @@
                                 <state key="normal" title="O">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OWX-o3-eeu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUN-8R-8At">
                                 <frame key="frameInset" minX="215" minY="508" width="44" height="50"/>
@@ -199,6 +242,9 @@
                                 <state key="normal" title="R">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K5I-Ki-mAe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qqi-PA-Bco">
                                 <frame key="frameInset" minX="265" minY="508" width="44" height="50"/>
@@ -208,6 +254,9 @@
                                 <state key="normal" title="S">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GfY-aj-NxU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-LJ-K7W">
                                 <frame key="frameInset" minX="315" minY="508" width="44" height="50"/>
@@ -217,6 +266,9 @@
                                 <state key="normal" title="T">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oiO-Mb-J4h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWa-ag-iax">
                                 <frame key="frameInset" minX="15" minY="566" width="44" height="50"/>
@@ -226,6 +278,9 @@
                                 <state key="normal" title="U">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cA5-kL-CUz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="te5-SD-6sS">
                                 <frame key="frameInset" minX="215" minY="566" width="44" height="50"/>
@@ -235,6 +290,9 @@
                                 <state key="normal" title="X">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IdQ-kf-30v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1m-Gb-EMe">
                                 <frame key="frameInset" minX="115" minY="566" width="44" height="50"/>
@@ -244,6 +302,9 @@
                                 <state key="normal" title="W">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lCo-lF-ayP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmE-Ug-ct3">
                                 <frame key="frameInset" minX="65" minY="566" width="44" height="50"/>
@@ -253,6 +314,9 @@
                                 <state key="normal" title="V">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVM-Ia-E0N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQH-NM-7QR">
                                 <frame key="frameInset" minX="165" minY="566" width="44" height="50"/>
@@ -271,6 +335,9 @@
                                 <state key="normal" title="Y">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mCp-ZA-Uob"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khQ-FE-PyD">
                                 <frame key="frameInset" minX="315" minY="566" width="44" height="50"/>
@@ -280,10 +347,28 @@
                                 <state key="normal" title="Z">
                                     <color key="titleColor" red="0.24099777990887844" green="0.24915231397868046" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PzX-z3-jDd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeE-lo-jP0">
+                                <frame key="frameInset" minX="13" minY="392" width="44" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.51549426949999999" green="0.95077306939999995" blue="0.63963390750000004" alpha="0.39245345739999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" red="0.24099777989999999" green="0.24915231400000001" blue="0.57260307590000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="letraPulsada:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9x2-AR-vgH"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.843243744474936" green="1" blue="0.81598386461677896" alpha="0.12336546985815602" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.92517226934432983" green="0.93838149309158325" blue="0.97649878263473511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="palabraOculta" destination="vOG-Pz-J9y" id="qc1-yT-v95"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -291,6 +376,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ahorcado_0.png" width="286" height="299"/>
+        <image name="ahorcado_1.png" width="286" height="299"/>
     </resources>
 </document>
