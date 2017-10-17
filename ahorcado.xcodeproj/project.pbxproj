@@ -12,6 +12,7 @@
 		E337526D1F95E35E00EBE17C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E337526B1F95E35E00EBE17C /* Main.storyboard */; };
 		E337526F1F95E35E00EBE17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E337526E1F95E35E00EBE17C /* Assets.xcassets */; };
 		E33752721F95E35E00EBE17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33752701F95E35E00EBE17C /* LaunchScreen.storyboard */; };
+		E337527C1F95EBF400EBE17C /* Imagenes in Resources */ = {isa = PBXBuildFile; fileRef = E337527B1F95EBF400EBE17C /* Imagenes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E337526E1F95E35E00EBE17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E33752711F95E35E00EBE17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E33752731F95E35E00EBE17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E337527B1F95EBF400EBE17C /* Imagenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Imagenes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E33752671F95E35E00EBE17C /* AppDelegate.swift */,
 				E33752691F95E35E00EBE17C /* ViewController.swift */,
+				E337527B1F95EBF400EBE17C /* Imagenes */,
 				E337526B1F95E35E00EBE17C /* Main.storyboard */,
 				E337526E1F95E35E00EBE17C /* Assets.xcassets */,
 				E33752701F95E35E00EBE17C /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33752721F95E35E00EBE17C /* LaunchScreen.storyboard in Resources */,
+				E337527C1F95EBF400EBE17C /* Imagenes in Resources */,
 				E337526F1F95E35E00EBE17C /* Assets.xcassets in Resources */,
 				E337526D1F95E35E00EBE17C /* Main.storyboard in Resources */,
 			);
